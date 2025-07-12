@@ -1,10 +1,12 @@
+import About from "@/components/layouts/About";
 import Hero from "@/components/layouts/Hero";
 
 const Home = () => {
   return (
     <main>
       <Hero />
-      <p>
+      <About />
+      <p className="container">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nulla,
         saepe quidem dicta ullam eum aliquid nostrum beatae culpa explicabo
         officia ea praesentium aperiam iure hic minima perspiciatis tempora
