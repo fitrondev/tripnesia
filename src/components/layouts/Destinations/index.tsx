@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { ArrowRight, MapPin, MessageCircle } from "lucide-react";
 
 import { destinations_data } from "@/constants/data";
@@ -51,9 +53,11 @@ const Destinations = () => {
             indah di Indonesia. Lihat koleksi lengkap destinasi wisata kami.
           </p>
           <div className="flex flex-col justify-center gap-4 sm:flex-row">
-            <Button size="lg">
-              Lihat Semua Destinasi
-              <ArrowRight className="size-5" />
+            <Button size="lg" asChild>
+              <Link href={"/destinations"}>
+                Lihat Semua Destinasi
+                <ArrowRight className="size-5" />
+              </Link>
             </Button>
 
             <Button variant="outline" size="lg">
