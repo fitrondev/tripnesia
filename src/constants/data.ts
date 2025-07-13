@@ -164,3 +164,193 @@ export const destinations_data = [
     highlights: ["Pulau Komodo", "Pink Beach", "Padar Island", "Manta Point"],
   },
 ];
+
+export const testimonials_data = [
+  {
+    id: 1,
+    name: "Sarah Wijaya",
+    location: "Jakarta",
+    avatar:
+      "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&q=80&crop=face",
+    rating: 5,
+    review:
+      "Perjalanan ke Bali bersama Tripnesia sangat luar biasa! Pelayanannya profesional dan destinasi yang dipilih sangat menakjubkan. Pasti akan booking lagi untuk trip selanjutnya.",
+    destination: "Bali",
+    trip_date: "Desember 2024",
+  },
+  {
+    id: 2,
+    name: "Ahmad Rizki",
+    location: "Bandung",
+    avatar:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&q=80&crop=face",
+    rating: 5,
+    review:
+      "Trip ke Raja Ampat adalah pengalaman diving terbaik dalam hidup saya! Tim Tripnesia sangat berpengalaman dan memastikan keamanan kami selalu terjaga. Highly recommended!",
+    destination: "Raja Ampat",
+    trip_date: "November 2024",
+  },
+  {
+    id: 3,
+    name: "Putri Sari",
+    location: "Surabaya",
+    avatar:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&q=80&crop=face",
+    rating: 5,
+    review:
+      "Sunrise di Gunung Bromo bersama Tripnesia tak akan pernah saya lupakan. Guide yang ramah dan persiapan yang matang membuat perjalanan ini sangat berkesan.",
+    destination: "Gunung Bromo",
+    trip_date: "Oktober 2024",
+  },
+];
+
+export const packages_data = [
+  {
+    id: 1,
+    name: "Paket Honeymoon Bali",
+    category: "Romantis",
+    duration: "5 Hari 4 Malam",
+    price: 4500000,
+    original_price: 5500000,
+    discount: 18,
+    image:
+      "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=800&h=600&fit=crop&q=80",
+    rating: 4.9,
+    reviews_count: 128,
+    description:
+      "Paket romantis untuk pasangan dengan pengalaman tak terlupakan di Pulau Dewata",
+    highlights: [
+      "Hotel bintang 5 dengan private pool",
+      "Candlelight dinner di pantai",
+      "Spa couple treatment",
+      "Foto pre-wedding gratis",
+      "Private tour guide",
+    ],
+    includes: [
+      "Tiket pesawat PP",
+      "Hotel 4 malam",
+      "Transportasi selama tour",
+      "Makan 3x sehari",
+      "Guide profesional",
+      "Tiket masuk wisata",
+    ],
+    destinations: ["Ubud", "Pantai Kuta", "Tanah Lot", "Uluwatu", "Seminyak"],
+    max_participants: 2,
+    departure_dates: ["15 Feb 2025", "1 Mar 2025", "15 Mar 2025"],
+    featured: true,
+  },
+  {
+    id: 2,
+    name: "Adventure Raja Ampat",
+    category: "Petualangan",
+    duration: "6 Hari 5 Malam",
+    price: 8500000,
+    original_price: 10000000,
+    discount: 15,
+    image:
+      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=600&fit=crop&q=80",
+    rating: 4.8,
+    reviews_count: 95,
+    description:
+      "Eksplorasi surga bawah laut dengan biodiversitas terkaya di dunia",
+    highlights: [
+      "Diving di 4 spot terbaik",
+      "Snorkeling dengan Manta Ray",
+      "Island hopping Pianemo",
+      "Photography underwater",
+      "Sunset di Arborek Village",
+    ],
+    includes: [
+      "Penerbangan Jakarta-Sorong PP",
+      "Speedboat antar pulau",
+      "Homestay tradisional",
+      "Peralatan diving lengkap",
+      "Underwater camera",
+      "Guide diving bersertifikat",
+    ],
+    destinations: ["Pianemo", "Wayag", "Arborek", "Yenbuba", "Friwen Wall"],
+    max_participants: 8,
+    departure_dates: ["20 Feb 2025", "5 Mar 2025", "20 Mar 2025"],
+    featured: true,
+  },
+  {
+    id: 3,
+    name: "Wisata Budaya Jogja",
+    category: "Budaya",
+    duration: "4 Hari 3 Malam",
+    price: 2200000,
+    original_price: 2700000,
+    discount: 19,
+    image:
+      "https://images.unsplash.com/photo-1596414086775-3e321ab08f36?w=800&h=600&fit=crop&q=80",
+    rating: 4.7,
+    reviews_count: 156,
+    description:
+      "Jelajahi kekayaan budaya dan sejarah Daerah Istimewa Yogyakarta",
+    highlights: [
+      "Sunrise di Candi Borobudur",
+      "Workshop batik tradisional",
+      "Kuliner khas Gudeg Yu Djum",
+      "Pertunjukan wayang kulit",
+      "Belanja oleh-oleh Malioboro",
+    ],
+    includes: [
+      "Hotel heritage di pusat kota",
+      "Transportasi AC",
+      "Tiket masuk semua wisata",
+      "Makan tradisional",
+      "Guide berlisensi",
+      "Oleh-oleh khas Jogja",
+    ],
+    destinations: [
+      "Borobudur",
+      "Prambanan",
+      "Keraton",
+      "Malioboro",
+      "Kotagede",
+    ],
+    max_participants: 15,
+    departure_dates: ["10 Feb 2025", "25 Feb 2025", "10 Mar 2025"],
+    featured: false,
+  },
+  {
+    id: 4,
+    name: "Family Trip Lombok",
+    category: "Keluarga",
+    duration: "4 Hari 3 Malam",
+    price: 3200000,
+    original_price: 3800000,
+    discount: 16,
+    image:
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop&q=80",
+    rating: 4.6,
+    reviews_count: 89,
+    description:
+      "Liburan keluarga yang sempurna dengan pemandangan alam yang menakjubkan",
+    highlights: [
+      "Pantai Pink yang eksotis",
+      "Gili Trawangan island hopping",
+      "Snorkeling untuk pemula",
+      "Sunset point Malimbu",
+      "Aktivitas ramah anak",
+    ],
+    includes: [
+      "Tiket pesawat keluarga",
+      "Resort family room",
+      "Fast boat ke Gili",
+      "Peralatan snorkeling",
+      "Kids club activities",
+      "Family photoshoot",
+    ],
+    destinations: [
+      "Pantai Pink",
+      "Gili Trawangan",
+      "Malimbu Hill",
+      "Senggigi",
+      "Pusuk Monkey",
+    ],
+    max_participants: 20,
+    departure_dates: ["12 Feb 2025", "26 Feb 2025", "12 Mar 2025"],
+    featured: false,
+  },
+];
