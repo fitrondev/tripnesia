@@ -1,4 +1,5 @@
 import About from "@/components/layouts/About";
+import Destinations from "@/components/layouts/Destinations";
 import Hero from "@/components/layouts/Hero";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <main>
       <Hero />
       <About />
+      <Destinations />
       <p className="container">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nulla,
         saepe quidem dicta ullam eum aliquid nostrum beatae culpa explicabo
