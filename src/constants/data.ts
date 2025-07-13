@@ -1,11 +1,18 @@
 import {
   Calendar,
   Camera,
+  Clock,
+  Facebook,
   Heart,
+  Instagram,
+  Mail,
   MapPin,
+  Phone,
   Shield,
   Star,
+  Twitter,
   Users,
+  Youtube,
 } from "lucide-react";
 
 export const navigation_links = [
@@ -354,3 +361,107 @@ export const packages_data = [
     featured: false,
   },
 ];
+
+export const contact_cards = [
+  {
+    icon: Mail,
+    title: "Email",
+    value: "support@tripnesia.com",
+    _field: "email",
+  },
+  {
+    icon: Phone,
+    title: "Telepon",
+    value: "+62 812-3456-7890",
+    _field: "phone",
+  },
+  {
+    icon: MapPin,
+    title: "Alamat",
+    value: "Jl. Wisata No. 123, Jakarta, Indonesia",
+    _field: "address",
+  },
+];
+
+export const contact_info = [
+  {
+    type: "phone",
+    label: "Telepon",
+    value: "+62 812-3456-7890",
+    icon: Phone,
+    href: "tel:+6281234567890",
+  },
+  {
+    type: "email",
+    label: "Email",
+    value: "support@tripnesia.com",
+    icon: Mail,
+    href: "mailto:support@tripnesia.com",
+  },
+  {
+    type: "address",
+    label: "Alamat",
+    value: "Jl. Wisata No. 123, Jakarta, Indonesia",
+    icon: MapPin,
+  },
+  {
+    type: "hours",
+    label: "Jam Operasional",
+    value: "Senin - Sabtu: 09:00 - 18:00",
+    icon: Clock,
+  },
+];
+
+export const footer_data = {
+  company_name: "Tripnesia",
+  description:
+    "Tripnesia adalah platform perjalanan yang menghubungkan Anda dengan destinasi terbaik di Indonesia. Kami menyediakan paket wisata yang dirancang khusus untuk memenuhi kebutuhan liburan Anda.",
+  social_links: [
+    {
+      name: "Instagram",
+      href: "#",
+      icon: Instagram,
+      aria_label: "Instagram",
+    },
+    {
+      name: "Facebook",
+      href: "#",
+      icon: Facebook,
+      aria_label: "Facebook",
+    },
+    {
+      name: "Twitter",
+      href: "#",
+      icon: Twitter,
+      aria_label: "Twitter",
+    },
+    {
+      name: "YouTube",
+      href: "#",
+      icon: Youtube,
+      aria_label: "YouTube",
+    },
+  ],
+  navigation_links: [
+    {
+      label: "Beranda",
+      href: "/",
+    },
+    { label: "Tentang", href: "#about" },
+    { label: "Destinasi", href: "/destinations" },
+    { label: "Paket Wisata", href: "/packages" },
+    { label: "Testimoni", href: "#testimonials" },
+    { label: "Kontak", href: "#contact" },
+  ],
+  legal_links: [
+    {
+      label: "Kebijakan Privasi",
+      href: "#",
+    },
+    {
+      label: "Syarat & Ketentuan",
+      href: "#",
+    },
+  ],
+  copyright_text: "©2025 Ansori Dev. Semua hak dilindungi undang-undang.",
+};
