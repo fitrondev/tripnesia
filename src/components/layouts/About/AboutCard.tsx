@@ -8,12 +8,12 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-interface AboutCardProps {
+type AboutCardProps = {
   icon: LucideIcon;
   title: string;
   description: string;
   variant?: "feature" | "value";
-}
+};
 
 const AboutCard = ({
   icon: Icon,

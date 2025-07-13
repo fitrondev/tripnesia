@@ -2,6 +2,8 @@ import { Compass } from "lucide-react";
 
 import { about_features, about_stats, about_values } from "@/constants/data";
 
+import SectionHeader from "@/components/common/SectionHeader";
+
 import AboutCard from "./AboutCard";
 
 const About = () => {
@@ -9,24 +11,13 @@ const About = () => {
     <section id="about" className="bg-gradient py-10 md:py-14">
       <div className="container space-y-16">
         {/* Header Section */}
-        <div className="text-center">
-          <div className="bg-primary/10 text-primary mb-6 inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium">
-            <Compass className="size-4" />
-            Tentang Tripnesia
-          </div>
-          <h2 className="mb-6 text-3xl font-bold md:text-4xl lg:text-5xl">
-            Menjelajahi Indonesia dengan{" "}
-            <span className="from-primary bg-gradient-to-r to-cyan-400 bg-clip-text text-transparent">
-              Passion
-            </span>
-          </h2>
-          <p className="mx-auto max-w-3xl text-lg leading-relaxed text-gray-600 md:text-xl">
-            Tripnesia adalah platform travel terpercaya yang telah membantu
-            ribuan wisatawan menjelajahi keindahan Indonesia. Dengan pengalaman
-            bertahun-tahun, kami berkomitmen memberikan pengalaman wisata yang
-            tak terlupakan.
-          </p>
-        </div>
+        <SectionHeader
+          badge_text="Tentang Tripnesia"
+          badge_icon={Compass}
+          title="Menjelajahi Indonesia dengan"
+          highlight_text="Passion"
+          description="Tripnesia adalah platform travel terpercaya yang telah membantu ribuan wisatawan menjelajahi keindahan Indonesia. Dengan pengalaman bertahun-tahun, kami berkomitmen memberikan pengalaman wisata yang tak terlupakan."
+        />
 
         {/* Stats Section */}
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
